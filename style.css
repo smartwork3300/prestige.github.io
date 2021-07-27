@@ -1,0 +1,536 @@
+@font-face {font-family: "Trajan Pro"; 
+    src: url("trajan-pro/Trajan\ Pro.ttf");
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    /* background-color: #e9ecef; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center;
+    background-size:cover;
+
+}
+
+.details{
+    position: absolute;
+    margin: auto;
+    
+    
+  bottom: 0px;
+  
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  height: 100vh;
+  width: 100%;
+  /* padding-top: 100px; */
+  text-align: center;
+  
+
+}
+
+.details h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-family: "Trajan Pro";
+    padding: 252px 0 30px;
+    
+}
+@media only screen and (max-width: 767px){
+    .details {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+
+    }
+    .w-100{
+        height: 100vh;
+    } 
+    .details h1{
+        display: none;
+    }
+    .details .btn1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+
+   .social-media .fab {
+       /* width: 50%; */
+       position: relative;
+       display: flex;
+        padding: 20px;
+        font-size: 30px;
+        /* width: 50px; */
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+}
+.social-media .fab{
+    padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+}
+.row p{
+    margin-top: 10px;
+}
+.btn1 button{
+    padding:5px 15px;
+    margin-top: 35px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    background:transparent;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 14px;
+  display: inline-block;
+  margin: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  font-family: "Trajan Pro";
+}
+button:hover{
+  background:rgb(243, 234, 234);
+  color:rgb(34, 33, 33);
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 80px;
+}
+
+.social-media a{
+    /* display: flex; */
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    margin: 0 15px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.social-media a i{
+    color: white;
+    
+}
+@media only screen and (max-width: 767px) {
+    .social-media{ 
+    display: inline-block;
+    justify-content: center;
+}
+.social-media .fab{
+    padding: 0px 0px 0px 0px;
+    font-size: 50px;
+    margin: 180px 0;
+    display: inline-block;
+}
+.c_details{
+    display: none;
+}
+}
+.navbar-toggler:hover{
+    color: #101314;    
+}
+.navbar-toggler-icon{
+    padding-left: 30px;
+    margin: 10px;
+    
+}
+.social-media a:hover
+{
+transform: translateY(5px);
+}
+.social-media a:nth-child(1):hover i{
+color:#1249b9 ;
+        
+}
+.social-media a:nth-child(2):hover i{
+color:#e1306c;
+}
+.social-media a:nth-child(3):hover i{
+color:#ff0000 ;
+}
+.social-media a:nth-child(4):hover i{
+    color:#f50 ;
+    }
+.social-media1{
+    
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+}
+.social-media1 a{
+    display: flex;
+    background: black;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    margin: 2px 10px;
+    
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.social-media1 a:hover
+{
+transform: translateY(5px);
+}
+
+.social-media1 a:nth-child(1):hover i{
+    color:#1249b9 ;
+            
+    }
+    .social-media1 a:nth-child(2):hover i{
+    color:#e1306c;
+    }
+    .social-media1 a:nth-child(3):hover i{
+    color:#ff0000 ;
+    }
+    .social-media1 a:nth-child(4):hover i{
+        color:#f50 ;
+        }
+
+.navbar{
+    /* background-color: #bbc2c5ba; */
+    background-color: #323a3e;
+    padding: 0px 0px;
+}
+.navba-nav a{
+font-family: "Trajan Pro";
+font-size: 28px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.navbav-light .navbar-brand{
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show, 
+ .navbar-light .navbar-nav .show>.nav-link {
+    color:#fff;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 2px;
+    
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    
+    border-radius: 2px;
+    padding: 6px;
+    font-size: 20px;
+}
+.collapse ul li{
+padding-left: 10px;
+}
+.navbar-nav{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px;
+
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.nav-link{
+    padding: .2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{
+    color: #e8f0f0;
+    background: #101314;
+    transition: all 0.3s;
+}
+.dropdown-menu{
+    color: #fff;
+    background-color:#101314 ;
+}
+.dropdown-item{
+    color: #fff;
+}
+/* .w-100{
+    height: 100vh;
+} */
+@media only screen and (max-width: 767px){
+    .navbar-nav .ml-auto{
+        background:rgba(0,0,0,0.5);
+    }
+    .navbar-toggler{
+        padding: 2px 5px;
+        font-size: 15px;
+        line-height: 0.3;
+        color:#fff;
+        background: #d9e1e4
+    }
+}
+    
+.video h1{
+padding-top: 30px;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+font-family: "Trajan Pro";
+}
+@media only screen and (max-width: 767px){
+.video h1{
+font-size: larger;
+}
+}
+.video{
+    position: relative;
+    
+    
+   }
+   .video-player{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+  }
+  .video-player video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .video-player .navigation{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .video-player .navigation li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 3px 3px 0;
+    opacity: 0.7;
+  transition: 0.5s;
+  }
+  .video-player .navigation li:hover{
+    opacity: 1;
+  
+  }
+  .video-player .navigation li img{
+    width: 80px;
+    transition: 0.5s;
+    }
+    .video-player .navigation li img:hover{
+      width: 200px;
+       }
+      
+  video :focus{
+    outline: none;
+  }
+  .jumbotron{
+      padding: 30px;
+  }
+  .jumbotron h1{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Trajan Pro";
+  }
+  @media only screen and (max-width: 767px){
+  .jumbotron h1{
+      align-items: center;
+    font-size:17px;
+  }
+  .fram_p{
+      font-size: 12px;
+
+  }
+  iframe{
+      width: 80%;
+  }
+}
+  .fram_p{
+      text-align: center;
+      font-family: "Trajan Pro";
+  }
+  .fram{
+    text-align: center;
+}
+.card h1{
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Trajan Pro";
+}
+@media only screen and (max-width: 767px){
+    .card h1{
+        display: none;
+    }
+}
+
+.card-body h3{
+    padding-inline: 27px;
+    font-family: "Trajan Pro";
+    padding-top: 0px;
+    font-weight: 500;
+}
+.form-control{
+    padding: 8px 8px;
+}
+footer{
+    position:relative; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#131517 ;
+    height: auto;
+    margin-top: auto;
+    width: 100%;
+    padding-top: 0px;
+    
+
+}
+.container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: left;
+    flex-direction: column;
+    
+}
+.socials{
+list-style: none;
+display: flex;
+/* align-items: center; */
+justify-content: center;
+margin: 10px 0px 0px 0px;
+float: right;
+}
+@media only screen and (max-width: 767px){
+.socials{
+    align-items: center;
+    float: none;
+}
+}
+.socials a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 7px 18px;
+    align-items: center;
+    justify-content:right;
+    text-decoration: none;
+    background: #fff;
+    font-size: 25px;
+
+}
+.socials a i{
+    margin: 0px 7px;
+    /* padding: 5px 0px 0px 0px; */
+    font-size: 25px;
+    /* color: rgb(85, 80, 80); */
+    color: black;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    border-radius: 50%;
+   
+}
+.socials a:hover{
+    transform: translateY(5px);
+
+}
+.socials a:nth-child(1):hover i{
+color:#1249b9 ;
+            
+}
+.socials a:nth-child(2):hover i{
+color:#e1306c;
+}
+.socials a:nth-child(3):hover i{
+color:#ff0000 ;
+}
+.socials a:nth-child(4):hover i{
+    color:#f50 ;
+    }
+.logo{
+    padding-left: 10px;
+    font-family: "Trajan Pro";
+    line-height: 30px;
+    
+    color: #fff;
+  }
+  .logo1{
+      font-size: 30px;
+      letter-spacing: 6px;
+  }
+  .logo2{
+      font-size: 26px;
+      letter-spacing: 1px;
+      text-indent: 5px; 
+  }
+
+  .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.container .text{
+    color: #fff;
+}
+.container .text1{
+    text-align: justify;
+    color: #fff;
+}
+/* .footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    font-family: "Trajan Pro";
+    word-spacing: 2px;
+    color: #fff;
+
+} */
+
+.dropdown-item:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #212529;
+}

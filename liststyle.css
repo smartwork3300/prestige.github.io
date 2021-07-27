@@ -1,0 +1,214 @@
+@font-face {font-family: "Trajan Pro"; 
+    src: url("trajan-pro/Trajan\ Pro.ttf");
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    /* background-color: #e9ecef; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.col-sm-7 h3{
+    font-family: "Trajan Pro";
+    font-weight: bold;
+}
+.col-sm-7 p{
+    font-family: "Trajan Pro";
+    text-align: justify;
+}
+
+@media only screen and (max-width: 767px){
+    .col-sm-7 p{
+        font-family: "Trajan Pro";
+        width: 100%;
+    }   
+    .col-sm-7 h3{
+        padding-top: 10px;
+    }
+}
+.fram{
+    padding-top: 100px;
+}
+.video{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.fram1{
+    padding-top: 100px;
+}
+.container-fluid{
+    padding-top: 100px;
+}
+.package-col img{
+    width: 80%;
+    background: transparent;
+    opacity: 0.8;
+    display: block;
+    border-radius: 20px;
+}
+.layer{
+    background:rgba(0, 0, 0, 0.589);
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f1f1f1;
+    font-size: 24px;
+    transition: .5s;
+    border-radius: 20px;
+  }
+  .layer:hover{
+      background: rgba(3, 10, 17, 0.753);
+      cursor: pointer;
+      color: #fff;
+
+  }
+
+  .layer h3{
+    padding-top: 20px;  
+    text-align: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+  }  
+  
+  .layer ul{
+      padding-left: 80px;
+      margin-top: 20px;
+      
+  }
+  .layer .bt{
+      left: 0;
+      top: 0;
+
+  }
+  .layer li{
+      text-align: left;
+      font-size: 16px;
+      font-family: "Trajan Pro";
+  }
+  .layer h3 ul li{
+      width: 100%;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      opacity: 0;
+      transition: 0.5s;
+  }
+  .layer:hover h3 ul li{
+      bottom: 49%;
+      opacity: 1;
+  }
+.row1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.row2{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.m-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10%;
+
+}
+.package h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "trajan pro";
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.layer h3{
+    font-family: "trajan pro";
+}
+.package-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    /* margin: 7px; */
+}
+@media only screen and (max-width: 767px){
+    .package h1{
+        font-size: x-large;
+    }
+    .m-2{
+        padding-left: 0px;
+    }
+        
+    .package{
+      width: 100%;    
+     
+    }
+    .layer h3{
+        padding-top: 30px;  
+        text-align: center;
+          justify-content: center;
+          font-size: 18px;
+      }  
+    .package-col{
+        flex-basis: 100%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        margin: 7px;
+    }
+    .package-col img{
+        width: 100%;
+        background: transparent;
+        opacity: 0.8;
+        display: block;
+        margin: auto;
+        border-radius: 10px;   
+    
+    }
+    .layer{
+        width: 100%;
+        margin: auto;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+    .row1{
+        display: block;
+        flex-basis: 100%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+        margin: 7px;
+    }
+    }
+    .line{
+        background-color: #e6edef;
+    }
+    .video-player video {
+        padding-bottom: 20px;
+    }    
+
+    /* @media only screen and (max-width: 767px){
+        .portimg{
+            display: block;
+            order: 1;
+        }
+    } */
+    .p-5 {
+        padding: 4rem!important;
+    }
