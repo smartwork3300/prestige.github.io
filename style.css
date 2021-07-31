@@ -23,6 +23,15 @@ body{
 
 }
 
+@media only screen and (max-width: 767px){
+    carousel-item{
+        height: 100vh;
+        background-position: center;
+        background:no-repeat center center;
+        background-size: cover;
+    }
+   
+}
 .details{
     position: absolute;
     margin: auto;
@@ -502,6 +511,19 @@ color:#ff0000 ;
       letter-spacing: 1px;
       text-indent: 5px; 
   }
+
+  @media only screen and (max-width: 767px){
+   
+    .logo1{
+        font-size: 26px;
+        letter-spacing: 5px;
+    }
+    .logo2{
+        font-size: 23px;
+        line-height: 20px;
+        text-indent: 4.5px;
+    }
+}
 
   .navbar-light .navbar-brand:hover {
     color: #fff;
