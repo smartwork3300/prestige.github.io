@@ -20,9 +20,9 @@ body{
     min-height: 300px;
     background: no-repeat center center;
     background-size:cover;
+    /* background-attachment: fixed; */
 
 }
-
 @media only screen and (max-width: 767px){
     carousel-item{
         height: 100vh;
@@ -32,6 +32,7 @@ body{
     }
    
 }
+
 .details{
     position: absolute;
     margin: auto;
@@ -150,7 +151,7 @@ button:hover{
 .social-media .fab{
     padding: 0px 0px 0px 0px;
     font-size: 50px;
-    margin: 180px 0;
+    margin: 250px 0;
     display: inline-block;
 }
 .c_details{
@@ -511,7 +512,6 @@ color:#ff0000 ;
       letter-spacing: 1px;
       text-indent: 5px; 
   }
-
   @media only screen and (max-width: 767px){
    
     .logo1{
