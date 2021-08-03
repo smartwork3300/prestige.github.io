@@ -114,9 +114,11 @@ justify-content: center;
 align-items: center;
 }
 .row2{
-display: flex;
-justify-content: center;
-align-items: center;
+display: inline-block;
+width: 37%;
+margin: auto;
+padding: 10px;
+
 
 }
 
